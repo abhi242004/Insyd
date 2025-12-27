@@ -1,22 +1,18 @@
 {
   "name": "lead-automation",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "AI-powered lead automation system",
   "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
-    "@google/genai": "^1.34.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "nodemailer": "^7.0.12",
-    "openai": "^6.15.0",
-    "save": "^2.9.0"
+    "openai": "^6.15.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
